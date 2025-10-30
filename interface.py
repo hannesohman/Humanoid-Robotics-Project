@@ -24,7 +24,7 @@ def spell(word):
         time.sleep(0.30)
 
 
-print("Type commands like: 00 90, 03 120, A, B, ABCDEFG")
+print("Type commands like: A, B, ABCDEFG")
 while True:
     command = input("> ").upper()
     if command == "EXIT":
